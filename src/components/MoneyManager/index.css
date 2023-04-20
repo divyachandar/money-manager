@@ -1,0 +1,114 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.money-manager-header-section {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.money-manager-header {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 800;
+  font-size: 24px;
+  margin-left: 24px;
+}
+.description {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 24px;
+}
+.transaction-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.add-transaction-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 64px;
+  margin-left: 36px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.add-appointment-heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.label {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+.input {
+  color: #131415;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border: 1px solid #7e858e;
+  border-radius: 4px;
+  height: 40px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+  outline: none;
+}
+.add-button {
+  align-self: flex-start;
+  background-color: #8b5cf6;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+}
+.transaction-table {
+  padding-left: 0;
+  margin-top: 48px;
+}
+.table-header {
+  display: flex;
+  background-color: #f1f5f9;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+}
+.table-header-cell {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 32px;
+  text-transform: uppercase;
+}
+.name-column {
+  width: 33%;
+  border-right: none;
+}
+.separator {
+  margin: 0;
+  border: 1px solid #cbd5e1;
+}
