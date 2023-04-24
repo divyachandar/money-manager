@@ -14,7 +14,7 @@ const TransactionItem = props => {
       </div>
       <hr className="separator" />
       <div className="table-cell amount-column">
-        <p className="amount">{amount}</p>
+        <p className="amount">Rs {amount}</p>
       </div>
       <hr className="separator" />
       <div className="table-cell type-column">
@@ -23,7 +23,7 @@ const TransactionItem = props => {
           onClick={onDeleteTransaction}
           type="button"
           className="delete-icon-container"
-          data-testId="delete"
+          data-testid="delete"
         >
           <img
             src="https://assets.ccbp.in/frontend/react-js/money-manager/delete.png"
